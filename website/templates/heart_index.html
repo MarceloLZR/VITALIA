@@ -1,0 +1,115 @@
+{% extends "disease_page.html" %}
+{% block page %}
+<br>
+<br>
+<br>
+<div id="disease_page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+						<h3>Enfermedad Cardíaca</h3>
+						<h4>Descripción General</h4>
+						<p>La enfermedad cardíaca describe una serie de condiciones que afectan tu corazón. Las enfermedades cardíacas incluyen:
+							Enfermedad de los vasos sanguíneos, como la enfermedad arterial coronaria
+							Problemas de ritmo cardíaco (arritmias)
+							Defectos cardíacos congénitos
+							Enfermedad de las válvulas cardíacas
+							Enfermedad del músculo cardíaco
+							Infección del corazón
+							Muchas formas de enfermedad cardíaca pueden prevenirse o tratarse con elecciones de estilo de vida saludables.
+						</p>
+
+						
+					</div>
+					
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<img class="ill_image" src="./static/images/disease_img/theheart1.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<h4>Síntomas</h4>
+						<p>Los signos y síntomas comunes de un ataque al corazón incluyen:</p>
+						<ul>
+						<li>Presión, opresión, dolor o una sensación de presión o molestia en el pecho o en los brazos que puede irradiarse al cuello, mandíbula o espalda</li>
+						<li>Náuseas, indigestión, ardor de estómago o dolor abdominal</li>
+						<li>Dificultad para respirar</li>
+						<li>Sudor frío</li>
+						<li>Fatiga</li>
+						<li>Mareos o aturdimiento repentino</li>
+						</ul>
+
+
+					</div>
+				</div>
+				
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<h3>Modelo</h3>
+						<p>Para realizar el diagnóstico es necesario ingresar la siguiente información:</p>
+						<ul>
+							<li>edad: edad del paciente</li>
+							<li>género: "Masculino", "Femenino" u "Otro"</li>
+							<li>tipo de dolor en el pecho: angina típica/angina atípica/dolor no anginal/asintomático</li>
+							<li>presión arterial en reposo</li>
+							<li>colesterol sérico en mg/dl</li>
+							<li>azúcar en sangre en ayunas > 120 mg/dl: sí o no</li>
+							<li>resultados electrocardiográficos en reposo: normal, con anormalidad de ondas ST-T, mostrando probable o definitiva hipertrofia ventricular izquierda según criterios de Estes</li>
+							<li>frecuencia cardíaca máxima alcanzada</li>
+							<li>angina inducida por ejercicio</li>
+							<li>oldpeak: depresión del segmento ST inducida por ejercicio en relación con el reposo</li>
+							<li>la pendiente del segmento ST del ejercicio máximo</li>
+
+
+						</ul>
+					</div>
+					<div class="col-md-6 col-sm-6  wow fadeInRight" data-wow-delay="0.5s">
+						<div class="flex-wrapper">
+						  <div class="single-chart">
+						    <svg viewBox="0 0 36 36" class="circular-chart orange">
+						      <path class="circle-bg"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <path class="circle"
+						        stroke-dasharray="86, 100"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <text x="18" y="20.35" class="percentage">90%</text>
+						    </svg>
+						    <h4 style="text-align: center;">Presicion</h4>
+						  </div>
+						  </div>
+						</div>
+					</div>
+			
+					
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="prediction text-center">
+			    <a href="/heart_form" class="smoothScroll btn btn-success wow fadeInDown" data-wow-delay="2000">Predecir</a>
+		  	</div>
+			<br>
+		  	<br>
+		  	<br>
+		  	<br>
+
+		</div>
+		
+
+{% endblock %}
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+{% extends "disease_page.html" %}
+{% block page %}
+<br>
+<br>
+<br>
+<div id="disease_page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+						<h3>Nefropatía</h3>
+						<h4>Descripción General</h4>
+						<p>La enfermedad renal crónica, también llamada insuficiencia renal crónica, describe la pérdida gradual de la función renal. Los riñones filtran desechos y fluidos en exceso de la sangre, que luego se excretan en la orina. Cuando la enfermedad renal crónica alcanza una etapa avanzada, niveles peligrosos de fluidos, electrolitos y desechos pueden acumularse en tu cuerpo.
+
+							En las primeras etapas de la enfermedad renal crónica, puedes tener pocos signos o síntomas. La enfermedad renal crónica puede no hacerse evidente hasta que la función renal esté significativamente comprometida.
+							
+							El tratamiento para la enfermedad renal crónica se centra en desacelerar la progresión del daño renal, generalmente controlando la causa subyacente. La enfermedad renal crónica puede progresar a insuficiencia renal en etapa terminal, que es fatal sin filtración artificial (diálisis) o un trasplante de riñón.
+						</p>
+							
+						
+					</div>
+					
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<img class="ill_image" src="./static/images/disease_img/thekidney1.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<h4>Sintomas</h4>
+						<p>Los signos y síntomas de la enfermedad renal crónica se desarrollan con el tiempo si el daño renal progresa lentamente y pueden incluir:</p>
+						<ul>
+						<li>Náuseas y vómitos</li>
+						<li>Pérdida de apetito</li>
+						<li>Fatiga, debilidad y problemas para dormir</li>
+						<li>Cambios en la cantidad de orina</li>
+						<li>Presión arterial alta (hipertensión) que es difícil de controlar</li>
+						<li>Disminución de la agudeza mental</li>
+						<li>Contracciones y calambres musculares</li>
+						<li>Dificultad para respirar, si se acumulan líquidos en los pulmones</li>
+						<li>Dolor en el pecho, si se acumulan líquidos alrededor del revestimiento del corazón</li>
+						</ul>
+
+					</div>
+				</div>
+				
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<h3>Modelo</h3>
+						<p>Para hacer el diagnóstico, necesitas ingresar la siguiente información:</p>
+						<ul>
+						<li>edad</li>
+						<li>Presión arterial: en mm/Hg</li>
+						<li>Resultado de la prueba de gravedad específica de la orina: entre (1.002, 1.030)</li>
+						<li>Cantidad de glucosa en sangre al azar en mgs/dl</li>
+						<li>Cantidad de urea en sangre en mgs/dl</li>
+						<li>Cantidad de creatinina sérica en mgs/dl</li>
+						<li>Cantidad de hemoglobina en gms</li>
+						<li>Agregados de células de pus: presente, no presente</li>
+						<li>Bacterias: presente, no presente</li>
+						<li>Hipertensión: sí, no</li>
+						<li>Diabetes Mellitus: sí, no</li>
+						<li>Enfermedad arterial coronaria: sí, no</li>
+						<li>Apétito: bueno, pobre</li>
+						<li>Edema en los pies: sí, no</li>
+						<li>Anemia: sí, no</li>
+						
+						</ul>
+
+					</div>
+					
+					<div class="col-md-6 col-sm-6  wow fadeInRight" data-wow-delay="0.5s">
+						<div class="flex-wrapper">
+						  <div class="single-chart">
+						    <svg viewBox="0 0 36 36" class="circular-chart orange">
+						      <path class="circle-bg"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <path class="circle"
+						        stroke-dasharray="86, 100"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <text x="18" y="20.35" class="percentage">98%</text>
+						    </svg>
+						    <h4 style="text-align: center;">Precision</h4>
+						  </div>
+						  </div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="prediction text-center">
+			    <a href="/kidney_form" class="smoothScroll btn btn-success wow fadeInDown" data-wow-delay="2000">Predecir</a>
+		  	</div>
+			<br>
+		  	<br>
+		  	<br>
+		  	<br>
+
+		</div>
+		
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
