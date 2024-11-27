@@ -27,49 +27,59 @@ p
     }
 /* end all section */
 
-/* start nagivation */
-.navbar-default
-    {
-        background: #fff;
-        border: none;
-        box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-        margin: 0 !important;
-        padding: 0;
-    }
-.navbar-default .navbar-brand
-    {
-        padding-top: 8px;
-        padding-bottom: 60px;
-    }
-.navbar-default .navbar-nav li a
-    {
-        font-size: 13px;
-        font-weight: bold;
-        line-height: 35px;
-    }
-.navbar-default .navbar-nav li a:hover
-    {
-        color: #93ca3a;
-    }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #93ca3a;
-  background-color: transparent;
+/* start navigation */
+.navbar-default {
+    background: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    margin: 0 !important;
+    padding: 0;
 }
-.navbar-default .navbar-toggle
-    {
-        border: none;
-        padding-top: 16px;
-    }
-.navbar-default .navbar-toggle .icon-bar
-    {
-        background: #93ca3a;
-        border-color: transparent;
-    }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { background-color: transparent }
+
+.navbar-default .navbar-brand {
+    padding-top: 8px;
+    padding-bottom: 60px;
+}
+
+.navbar-default .navbar-nav li a {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 35px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #75a9dd;
+    background-color: rgba(147, 202, 58, 0.1);
+}
+
+/* Estilos del menú desplegable */
+.navbar-default .dropdown:hover .dropdown-menu {
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-default .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    min-width: 180px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar-default .dropdown-menu li a:hover {
+    background-color: #75a9dd;
+    color: white;
+}
+
+/* Asegúrate de que el ícono de la flecha (caret) tenga un color visible */
+.navbar-default .dropdown-toggle .caret {
+    border-top-color: #75a9dd;
+}
 /* end navigation */
+
+
 
 /* start home */        
 #home
@@ -135,7 +145,7 @@ p
 }
 .flexslider .btn
 {
-    background: #93ca3a;
+    background: #75a9dd;
     border-radius: 0;
     border: 2px solid transparent;
     color: #FFFFFF;
@@ -150,7 +160,7 @@ p
 .flexslider .btn:hover,
 .flexslider .btn:focus {
     background: #fff;
-    color: #93ca3a;
+    color: #75a9dd;
     border: 2px solid transparent;
 }
 
@@ -183,7 +193,7 @@ p
 }
 #disease_page h3
     {
-        color: #93ca3a;
+        color: #75a9dd;
         font-size: 40px;
         padding-bottom: 40px;
         
@@ -201,7 +211,7 @@ p
     }
 #disease_page .progress .progress-bar-danger
     {
-        background: #93ca3a;
+        background: #75a9dd;
     }
 #disease_page .text-top
     {
@@ -233,7 +243,7 @@ p
 
     }
 #disease_page .prediction .btn{
-    background: #93ca3a;
+    background: #75a9dd;
     border-radius: 0;
     border: 2px solid transparent;
     color: #FFFFFF;
@@ -248,7 +258,7 @@ p
 #disease_page .prediction .btn:hover,
 #disease_page .prediction .btn:focus {
     background: #fff;
-    color: #93ca3a;
+    color: #75a9dd;
     border: 2px solid transparent;
 }
 #disease_page .flex-wrapper {
@@ -300,7 +310,7 @@ p
 }
 
 #disease_page .circular-chart.green .circle {
-  stroke: #4CC790;
+  stroke: #abd3fa;
 }
 
 #disease_page .circular-chart.blue .circle {
@@ -423,6 +433,7 @@ p
 }
 /* end portfolio */
 
+
 /* start assitant */
 /* start assistant */
 #assistant h2 {
@@ -494,7 +505,7 @@ p
     }
 #contact .fa
     {
-        color: #93ca3a;
+        color: #75a9dd;
         font-size: 18px;
         padding-bottom: 14px;
     }
@@ -518,7 +529,7 @@ p
     }
 #contact input[type="submit"]:hover
     {
-        background: #93ca3a;
+        background: #75a9dd;
     }
  #contact .form-control::-moz-placeholder {
   color: #666;
@@ -531,6 +542,15 @@ p
   color: #666;
 }
 /* end contact */
+.btn {
+    background-color: #75a9dd;  /* Color de fondo */
+    color: white;               /* Color del texto */
+    border: none;               /* Eliminar el borde si no lo quieres */
+}
+
+.btn:hover {
+    background-color: #5c8ab1;  /* Color más oscuro cuando se pasa el mouse */
+}
 
 
 
